@@ -17,7 +17,7 @@ const Hero = () => {
             <img src="/assets/notification1.png" alt="" className="absolute right-[139px] top-[102px] z-20" />
             <img src="/assets/notification2.png" alt="" className="absolute right-2.5 top-[270px] z-20" />
             <img src="/assets/notification1.png" alt="" className="absolute right-[89px] bottom-[55px] z-20" />
-            <img src="/assets/pizza.png" alt="" className='absolute bottom-0 right-[421px] z-20' />
+            <img src="/assets/pizzagirl.png" alt="" className='absolute bottom-0 right-[421px] z-20' />
             <img src="/assets/spag.png" alt="" className='absolute right-[291px] bottom-0 z-10'/>
             <div className="w-[626px] h-[565px] rounded-tl-[282.5px] rounded-br-[12px] bg-[#FC8A06] absolute right-0 bottom-0"></div>
         </div>
