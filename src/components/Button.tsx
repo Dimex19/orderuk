@@ -1,8 +1,8 @@
 'use client'
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 interface buttonProps {
-    text: any,
+    text: ReactNode,
     className: string,
     image?: string
 }
