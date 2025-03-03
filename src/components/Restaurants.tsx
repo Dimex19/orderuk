@@ -30,16 +30,16 @@ const Categories = () => {
     ];
     const sliderRef = useRef<HTMLDivElement>(null);
     
-      const scroll = (direction: "left" | "right") => {
-        if (sliderRef.current) {
-          const scrollAmount = 500; // Adjust scroll speed
-          if (direction === "left") {
-            sliderRef.current.scrollLeft -= scrollAmount;
-          } else {
-            sliderRef.current.scrollLeft += scrollAmount;
-          }
-        }
-      };
+    //   const scroll = (direction: "left" | "right") => {
+    //     if (sliderRef.current) {
+    //       const scrollAmount = 500; // Adjust scroll speed
+    //       if (direction === "left") {
+    //         sliderRef.current.scrollLeft -= scrollAmount;
+    //       } else {
+    //         sliderRef.current.scrollLeft += scrollAmount;
+    //       }
+    //     }
+    //   };
     return (
         <div className="mx-3 md:mx-[100px] mt-[63px] mb-[56px]">
             <p className="font-bold text-[16px] md:text-[32px]">Popular Restaurants</p>
