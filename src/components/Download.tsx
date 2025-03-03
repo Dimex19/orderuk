@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight, FaApple } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 
 const Download = () => {
   return (
