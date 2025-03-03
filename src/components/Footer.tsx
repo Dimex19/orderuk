@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='pt-[81px] bg-[#D9D9D9]'>
         <div className="px-[5%] md:px-[100px] mb-[58px] md:flex justify-between">
-            <div className="f">
+            <div className="flex flex-col justify-center items-center md:block">
                 <img src="/assets/logo2.png" alt="" />
                 <div className="flex mt-[33px]">
                     <button className="flex justify-center p-[2px] items-center  bg-black rounded-[10px] border px-4 py-2">
@@ -25,11 +25,11 @@ const Footer = () => {
                         </div>
                     </button>
                 </div>
-                <p className="text-[15px] font-normal mt-[22px]">Company # 490039-445, Registered with <br/>House of companies.</p>
+                <p className="text-[15px] text-center md:text-start font-normal mt-[22px]  mb-8 md:mb-0">Company # 490039-445, Registered with <br/>House of companies.</p>
             </div>
             <div className="md:flex md:gap-10">
-                <div className="flex flex-col justify-center items-center mb-8 md:mb-0" >
-                    <p className="text-[14px] md:text-[18px] font-bold">Get Exclusive Deals in your Inbox</p>
+                <div className="flex flex-col justify-center md:justify-start items-center md:items-start mb-8 md:mb-0" >
+                    <p className="text-[16px] md:text-[18px] font-bold">Get Exclusive Deals in your Inbox</p>
                     <div className="h-[57px] relative w-[100%] md:w-[481px] mt-[23px] md:scale-100">
                         <input type="text" className='w-[100%] md:w-[481px] h-[59px] p-[20px] rounded-[120px] bg-[#bdbdbd] text-black'/>
                         <Button text='Subscribe' className='bg-[#FC8A06] w-[171px] h-[60px] rounded-[120px] text-white absolute right-0'/>
