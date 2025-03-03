@@ -3,13 +3,13 @@ import { FaApple } from "react-icons/fa";
 
 const Download = () => {
   return (
-    <div className="relative flex items-end ml-[100px] mr-[100px] mt-[63px] mb-[56px] bg-gradient-to-r from-[#ffffff] to-[#E0E1DC] ">
+    <div className="relative flex flex-wrap items-end mx-3 md:mx-[100px] mt-[63px] mb-[56px] bg-gradient-to-r from-[#ffffff] to-[#E0E1DC] ">
       <div className=" w-[50%] h-[611px] flex items-end z-10">
         <img src="/assets/friends1.png" alt="" className="absolute bottom-0 left-0" />
         <img src="/assets/friends2.png" alt="" className="absolute bottom-0 left-4" />
       </div>
 
-      <div className="flex flex-col absolute right-0 w-[60%] h-[611px] items-center">
+      <div className="flex flex-col absolute right-0 w-[60%] h-full items-center">
         <div className="flex items-center space-x-4 mt-[110px]">
           <p className="flex items-center text-[64px] font-bold"><img src="/assets/logo.png" alt="brand logo" className='h-[100%]'/>ing</p>
           <p className='text-[64px] font-bold'> is more</p>

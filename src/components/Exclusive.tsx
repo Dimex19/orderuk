@@ -34,10 +34,10 @@ const Exclusive = () => {
             </div>
         </div>
         <div className="md:hidden flex justify-between items-center">
-          <p className="text-[16px] font-bold">Up to -40% Discount Offers 🎊 </p>
-          <div className="mr-5 flex justify-center items-center gap-2 w-[40%] p-3 border border-[#03081F] rounded-[120px]">
+          <p className="text-[14px] font-bold">Up to -40% Discount Offers 🎊 </p>
+          <div className="mr-5 flex justify-center items-center gap-2 w-[35%] p-3 border border-[#03081F] rounded-[120px]">
             <p className="c"><IoIosArrowDropdownCircle/></p>
-            <p className="c">Pizza & Fast Food</p>
+            <p className="text-[10px]">Pizza & Fast Food</p>
           </div>
         </div>
 
