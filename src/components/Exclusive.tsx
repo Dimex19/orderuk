@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import Button from "./Button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 const Exclusive = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -19,8 +20,8 @@ const Exclusive = () => {
   };
 
   return (
-    <div className="ml-[100px] mr-[100px] mt-[53px] mb-[100px]">
-        <div className="flex justify-between items-center">
+    <div className="ml-3 md:ml-[100px] md:mr-[100px] mt-[53px] mb-[100px]">
+        <div className=" hidden md:flex justify-between items-center">
             <p className="font-bold text-[32px]">Up to -40% 🎊 Order.uk exclusive deals</p>
             <div className="flex justify-between items-center w-[35%]">
             {["Vegan", "Sushi", "Pizza & Fast food", "Others"].map((item) => (
@@ -31,6 +32,13 @@ const Exclusive = () => {
                 />
             ))}
             </div>
+        </div>
+        <div className="md:hidden flex justify-between items-center">
+          <p className="text-[16px] font-bold">Up to -40% Discount Offers 🎊 </p>
+          <div className="mr-5 flex justify-center items-center gap-2 w-[40%] p-3 border border-[#03081F] rounded-[120px]">
+            <p className="c"><IoIosArrowDropdownCircle/></p>
+            <p className="c">Pizza & Fast Food</p>
+          </div>
         </div>
 
         {/* Slider Section */}
@@ -52,10 +60,10 @@ const Exclusive = () => {
             {Array(5).fill(0).map((_, index) => (
                 <div
                 key={index}
-                className="w-[496px] h-[325px] flex-shrink-0 relative rounded-[12px] bg-cover"
+                className="w-[325px] md:w-[496px] h-[325px] flex-shrink-0 relative rounded-[12px] bg-cover"
                 style={{ backgroundImage: `url(/assets/ex1.png)` }}
                 >
-                <div className="w-[88px] h-[66px] ml-[78%] bg-[#03081F] rounded-bl-[12px] rounded-br-[12px] flex items-center justify-center">
+                <div className="w-[88px] h-[66px] ml-[60%] md:ml-[78%] bg-[#03081F] rounded-bl-[12px] rounded-br-[12px] flex items-center justify-center">
                     <p className="text-[18px] text-white font-bold text-center">-40%</p>
                 </div>
                 <p className="text-[#FC8A06] text-[18px] font-medium ml-[46px] mt-[160px]">Restaurant</p>

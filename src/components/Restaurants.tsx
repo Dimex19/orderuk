@@ -27,8 +27,8 @@ const Categories = () => {
     ];
 
     return (
-        <div className="ml-[100px] mr-[100px] mt-[63px] mb-[56px]">
-            <p className="font-bold text-[32px]">Order.uk Popular Categories 🤩</p>
+        <div className="mx-3 md:mx-[100px] mt-[63px] mb-[56px]">
+            <p className="font-bold text-[16px] mdtext-[32px]">Popular Restaurants</p>
             <div className="flex justify-between overflow-x-scroll no-scrollbar mt-[51px]">
                 {data.map((item, index) => (
                     <div key={index} className="w-[238px] h-[266px] rounded-[12px] flex flex-col">

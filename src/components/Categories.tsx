@@ -21,7 +21,7 @@ const Categories = () => {
             image: "/assets/pizza.png",
         },
         {
-            title: "Breakfast", // Fixed spelling
+            title: "Breakfast", 
             paragraph: "4 Restaurants",
             image: "/assets/breakfast.png",
         },
@@ -33,11 +33,11 @@ const Categories = () => {
     ];
 
     return (
-        <div className="ml-[100px] mr-[100px] mt-[63px] mb-[56px]">
-            <p className="font-bold text-[32px]">Order.uk Popular Categories 🤩</p>
-            <div className="flex justify-between overflow-x-scroll no-scrollbar mt-[51px]">
+        <div className="mx-3 md:ml-[100px] md:mr-[100px] mt-[63px] mb-[56px]">
+            <p className="font-bold text-[16px] md:text-[32px]">Order.uk Popular Categories 🤩</p>
+            <div className="flex justify-between flex-wrap overflow-x-scroll no-scrollbar mt-[51px]">
                 {data.map((item, index) => (
-                    <div key={index} className="w-[238px] h-[266px] rounded-[12px] flex flex-col">
+                    <div key={index} className="max-w-[189px] max-h-[211px] md:w-[238px] md:h-[266px] rounded-[12px] flex flex-col mb-[26px]">
                         <img src={item.image} alt={item.title} className="h-[203px]" />
                         <div className="bg-[#03081F] pl-[22px] pt-[9px] h-[63px] rounded-b-[12px]">
                             <p className="font-bold text-[18px] text-[#FC8A06]">{item.title}</p>

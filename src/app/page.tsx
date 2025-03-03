@@ -10,6 +10,7 @@ import Restaurants from '@/components/Restaurants'
 import Partner from '@/components/Partner'
 import Download from "@/components/Download";
 import Service from "@/components/Service";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({ subsets: ['latin'], weight: '500' }) // Define the font
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Download/>
       <Partner/>
       <Service/>
+      <Footer/>
     </div>
   );
 }
