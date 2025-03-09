@@ -22,9 +22,9 @@ const Service = () => {
     
   return (
     <div>
-        <div className="mx-3 md:mx-[100px] pl-3 md:pl-[129px] pr-3 md:pr-[108px] pb-[115px] pt-[129px] bg-[#D9D9D9] rounded-[12px]">
-            <div className="flex justify-between items-center mb-[63px]">
-                <h1 className='text-[32px] font-bold'>Know more about us!</h1>
+        <div className="mx-3 md:mx-[100px] pl-3 md:pl-[129px] pr-3 md:pr-[108px] md:pb-[115px] md:pt-[129px] md:bg-[#D9D9D9] rounded-[12px]">
+            <div className="flex justify-center md:justify-between items-center text-black mb-[63px]">
+                <h1 className='text-[24px] md:text-[32px] font-bold'>Know more about us!</h1>
                 <div className="hidden md:flex justify-between items-center w-[55%]">
                 {["Frequent Questions", "Who are we?", "Partner Program", "Help & Support"].map((item) => (
                     <Button
@@ -35,25 +35,25 @@ const Service = () => {
                 ))}
                 </div>
             </div>
-            <div className="md:flex bg-[#03081F] pl-[72px] rounded-xl">
-                <div className="flex flex-col gap-[34px] w-[35%] justify-center items-center">
-                    <p className="text-[18px] font-bold bg-[#FC8A06] mt-[78px] pl-12 pr-12 pt-[18px] pb-[18px] border border-transparent rounded-[120px]">How does Order.UK work?</p>
-                    <p className="text-white text-[18px]">What payment methods are accepted?</p>
-                    <p className="text-white text-[18px]">Can I track my order in real-time?</p>
-                    <p className="text-white text-[18px] text-center">Are there any special discounts or <br/> promotions available?</p>
-                    <p className="text-white text-[18px] mb-[115px]">Is Order.UK available in my area?</p>
+            <div className="md:flex md:bg-[#03081F] md:pl-[72px] rounded-xl">
+                <div className="flex flex-col pb-12 md:pb-[115px] text-black md:text-white text-[16px] text-bold md:text-[18px] gap-[34px] md:w-[35%] justify-center items-center">
+                    <p className="font-bold bg-[#FC8A06] md:mt-[78px] px-12 py-[18px] border border-transparent rounded-[120px]">How does Order.UK work?</p>
+                    <p className="">What payment methods are accepted?</p>
+                    <p className="">Can I track my order in real-time?</p>
+                    <p className=" text-center">Are there any special discounts or <br/> promotions available?</p>
+                    <p className="">Is Order.UK available in my area?</p>
                 </div>
-                <div className='flex flex-col items-center'>
-                    <div className="md:flex gap-5 pt-[88px] ml-[31px]">
+                <div className='flex flex-col items-center bg-[#03081F] rounded-[12px]'>
+                    <div className="md:flex gap-5 pt-[88px] md:ml-[31px]">
                         {data.map((item, index) => (
-                        <div key={index} className="flex flex-col justify-center items-center w-[238px] h-[285px] bg-[#D9D9D9] rounded-xl">
+                        <div key={index} className="flex flex-col justify-center mb-7 md:mb-0 items-center w-[238px] h-[285px] bg-[#D9D9D9] rounded-xl">
                             <p className="text-[18px] font-bold mb-[14px]">{item.title}</p>
                             <img src={item.url} alt="" className='w-[128px] h-[128px] mb-[5px]'/>
                             <p className="text-center text-[16px] font-medium">{item.paragraph}</p>
                         </div>
                         ))}
                     </div>
-                    <p className="w-[625px] text-[15px] text-center text-white font-normal mt-[33px] mb-[48px]">Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</p>
+                    <p className="md:w-[625px] text-[13px] md:text-[15px] px-8 text-center text-white font-normal mt-[33px] mb-[48px]">Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</p>
                 </div>
             </div>
         </div>

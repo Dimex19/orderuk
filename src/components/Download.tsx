@@ -62,7 +62,7 @@ const Download = () => {
             </div>
           </button>
         </div>
-        <div className="relative w-[100%] -mt-[100px] h-[511px] flex justify-center items-end">
+        <div className="relative w-[100%] -mt-[230px] h-[511px] flex justify-center items-end">
           <img src="/assets/friends1.png" alt="" className="absolute w-[80vw] bottom-0" />
           <img src="/assets/friends2.png" alt="" className="absolute w-[80vw] bottom-0 ml-5" />
         </div>
