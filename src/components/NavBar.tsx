@@ -37,7 +37,7 @@ const NavBar = () => {
       {showMenu && (
         <div className='fixed top-0 left-0 w-full h-screen bg-white z-[1000] flex flex-col gap-6 shadow-lg'>
           
-          <div className="flex justify-between p-10 ">
+          <div className="flex justify-between px-10 py-8 border-2">
             <div className="flex items-center gap-4">
               <img src="/assets/menu.png" alt="" />
               <p className='font-bold text-3xl'>Menu</p>
@@ -48,11 +48,13 @@ const NavBar = () => {
           </div>
 
           {/* Menu Links */}
-          {["Pizza", "Garlic Bread", "Calzone", "Kebabas", "Salads", "Cold Drinks", "Happy Meal®", "Deserts", "Hot Drinks", "Sauces", "Orbit®"].map((item) => (
-            <Link key={item} href="/" className="px-10 py-3 text-2xl font-semibold hover:bg-[#03081F] hover:text-white">
-              {item}
-            </Link>
-          ))}
+          <div className="flex flex-col gap-4 overflow-y-auto h-full px-4">
+            {["Pizza", "Garlic Bread", "Calzone", "Kebabas", "Salads", "Cold Drinks", "Happy Meal®", "Deserts", "Hot Drinks", "Sauces", "Orbit®"].map((item) => (
+              <Link key={item} href="/" className="px-10 py-3 text-2xl font-semibold hover:bg-[#03081F] hover:text-white">
+                {item}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </div>
