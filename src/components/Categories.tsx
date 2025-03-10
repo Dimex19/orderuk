@@ -39,8 +39,8 @@ const Categories = () => {
                 {data.map((item, index) => (
                     <div key={index} className="max-w-[189px] max-h-[211px] md:w-[238px] md:h-[266px] rounded-[12px] flex flex-col mb-[26px]">
                         <img src={item.image} alt={item.title} className="h-[203px]" />
-                        <div className="bg-[#03081F] pl-[22px] pt-[9px] h-[63px] rounded-b-[12px]">
-                            <p className="font-bold text-[18px] text-[#FC8A06]">{item.title}</p>
+                        <div className="flex flex-col justify-center px-2 bg-[#03081F] h-[63px] rounded-b-[12px]">
+                            <p className="font-bold text-[16px] text-[#FC8A06]">{item.title}</p>
                             <p className="text-[13px] text-white">{item.paragraph}</p>
                         </div>
                     </div>
