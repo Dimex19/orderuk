@@ -66,8 +66,8 @@ const Exclusive = () => {
                 <div className="w-[88px] h-[66px] ml-[60%] md:ml-[78%] bg-[#03081F] rounded-bl-[12px] rounded-br-[12px] flex items-center justify-center">
                     <p className="text-[18px] text-white font-bold text-center">-40%</p>
                 </div>
-                <p className="text-[#FC8A06] text-[18px] font-medium ml-[46px] mt-[160px]">Restaurant</p>
-                <p className="text-[24px] text-white font-bold ml-[46px]">Chef Burgers London</p>
+                <p className="text-[#FC8A06] text-[14px] md:text-[18px] font-medium ml-[46px] mt-[160px]">Restaurant</p>
+                <p className="text-[20px] md:text-[24px] text-white font-bold ml-[46px]">Chef Burgers London</p>
                 </div>
             ))}
             </div>
