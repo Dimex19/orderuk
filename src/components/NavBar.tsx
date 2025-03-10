@@ -37,7 +37,7 @@ const NavBar = () => {
       {showMenu && (
         <div className='fixed top-0 left-0 w-full h-screen bg-white z-[1000] flex flex-col gap-6 shadow-lg'>
           
-          <div className="flex justify-between px-10 py-8 border-2">
+          <div className="flex justify-between px-10 py-8">
             <div className="flex items-center gap-4">
               <img src="/assets/menu.png" alt="" />
               <p className='font-bold text-3xl'>Menu</p>
