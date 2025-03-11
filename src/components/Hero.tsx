@@ -18,6 +18,10 @@ const Hero = () => {
                 <input type="text" className='w-[308px] h-[57px] border p-[20px] rounded-[120px] text-black'/>
                 <Button text={<IoIosArrowDroprightCircle/>} className='bg-[#FC8A06] w-[58px] h-[58px] rounded-[120px] text-2xl text-white absolute right-0'/>
             </div>
+            <div className="md:hidden h-[57px] relative w-[308px]">
+                <input type="text" className='w-[308px] h-[57px] border p-[20px] rounded-[120px] text-black'/>
+                <Button text={<IoIosArrowDroprightCircle/>} className='bg-[#FC8A06] w-[58px] h-[58px] rounded-[120px] text-2xl text-white absolute right-0'/>
+            </div>
         </div>
         <div className="hidden md:flex relative w-[50%] h-full right-0 xl:scale-100">
             <img src="/assets/notification1.png" alt="" className="absolute right-[139px] top-[102px] z-20" />
