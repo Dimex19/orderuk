@@ -33,14 +33,14 @@ const Categories = () => {
     ];
 
     return (
-        <div className="mx-3 md:ml-[100px] md:mr-[100px] mt-[63px] mb-[56px]">
+        <div className="mx-3 md:mx-[50px] mt-[63px] mb-[56px]">
             <p className="font-bold text-[16px] md:text-[32px]">Order.uk Popular Categories 🤩</p>
             <div className="flex justify-between flex-wrap overflow-x-scroll no-scrollbar mt-[51px]">
                 {data.map((item, index) => (
                     <div key={index} className="max-w-[189px] max-h-[211px] md:w-[238px] md:h-[266px] rounded-[12px] flex flex-col mb-[26px]">
                         <img src={item.image} alt={item.title} className="h-[203px]" />
                         <div className="flex flex-col justify-center px-2 bg-[#03081F] h-[63px] rounded-b-[12px]">
-                            <p className="font-bold text-[14px] md:text-[18px] text-[#FC8A06]">{item.title}</p>
+                            <p className="font-bold text-[1px] md:text-[16px] text-[#FC8A06]">{item.title}</p>
                             <p className="text-[13px] text-white">{item.paragraph}</p>
                         </div>
                     </div>

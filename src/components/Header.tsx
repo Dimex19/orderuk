@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 const Header = () => {
   return (
-    <div className='hidden md:flex justify-between border bg-[#FAFAFA] rounded-b-[12px] ml-[100px] mr-[100px]'>
+    <div className='hidden md:flex justify-between border bg-[#FAFAFA] rounded-b-[12px] mx-[50px]'>
         <div className="flex items-center">
             <img src="/assets/star.png" alt="star" className='w-[25px] mr-3 ml-[37px]' />
             <p className="text-[15px]"> Get 5% Off your first order,<span className='text-[#FC8A06] font-bold leading-[22.5px] decoration-[#FC8A06] underline'> Promo: ORDER5</span></p>

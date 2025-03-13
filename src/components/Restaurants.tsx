@@ -41,7 +41,7 @@ const Categories = () => {
     //     }
     //   };
     return (
-        <div className="mx-3 md:mx-[100px] mt-[63px] mb-[56px]">
+        <div className="mx-3 md:mx-[50px] mt-[63px] mb-[56px]">
             <p className="font-bold text-[16px] md:text-[32px]">Popular Restaurants</p>
             <div ref={sliderRef} className="flex justify-between gap-4 overflow-x-scroll no-scrollbar mt-[51px]">
                 {data.map((item, index) => (

@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div>
       {/* Desktop Navigation */}
-      <div className='md:flex hidden mt-[24px] mb-[45px] mx-[100px] justify-between'>
+      <div className='md:flex hidden mt-[24px] mb-[45px] mx-[50px] justify-between'>
         <img src="/assets/logo.png" alt="" className="h-[53px]" />
         <div className="flex flex-1 justify-between items-center">
           <div className="flex justify-between ml-auto w-[80%] items-center">

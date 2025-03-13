@@ -20,7 +20,7 @@ const Exclusive = () => {
   };
 
   return (
-    <div className="ml-3 md:ml-[100px] md:mr-[100px] mt-[53px] mb-[100px]">
+    <div className="ml-3 md:mx-[50px] mt-[53px] mb-[100px]">
         <div className=" hidden md:flex justify-between items-center">
             <p className="font-bold text-[32px]">Up to -40% 🎊 Order.uk exclusive deals</p>
             <div className="flex justify-between items-center w-[35%]">

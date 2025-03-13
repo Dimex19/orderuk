@@ -5,7 +5,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center md:justify-start md:items-center h-[350px] md:h-[610px] text-white rounded-[12px] border mx-4 md:mx-5 xl:mx-[100px] bg-[#03081F] relative'>
+    <div className='flex justify-center items-center md:justify-start md:items-center h-[350px] md:h-[610px] text-white rounded-[12px] border mx-4 md:mx-5 xl:mx-[50px] bg-[#03081F] relative'>
         <div className="flex flex-col md:ml-[36px] m-auto z-50">
             <p className='text-[12px] text-center md:text-left md:text-[16px] md:mt-[134px]'>Order Restaurant food, takeaway and groceries.</p>
             <h1 className='font-semibold text-[34px] text-center md:text-left md:text-[54px]'>Feast Your Senses,<br /> <span className="text-[#FC8A06]">Fast and Fresh</span></h1>

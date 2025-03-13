@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 const Partner = () => {
     return (
-        <div className="relative md:flex justify-between items-end mx-3 md:mx-[100px] mt-[63px] mb-[56px]">
+        <div className="relative md:flex justify-between items-end mx-3 md:mx-[50px] mt-[63px] mb-[56px]">
             <div className="relative mb-6 md:mb-0 md:w-[48%] h-[220px] md:h-[425px] bg-[url('/assets/waiter1.png')] bg-cover bg-center rounded-[12px]">
                 <div className="ml-8 md:ml-[70px] flex items-center justify-center bg-white py-2 px-3 md:p-0 w-[200px] md:w-[288px] md:h-[63px] rounded-b-[12px] ">
                     <p className='font-bold text-[10px] md:text-[18px] md:text=[18px] text-black'>Earn more with lower fees</p>

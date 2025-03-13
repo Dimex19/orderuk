@@ -16,13 +16,13 @@ const Service = () => {
         {
             title: 'Get your Order!',
             url: '/assets/get.png',
-            paragraph: 'Receive your order at a lighting fast speed!p'
+            paragraph: 'Receive your order at a lighting fast speed!'
         }
     ]
     
   return (
     <div>
-        <div className="mx-3 md:mx-[100px] pl-3 md:pl-[129px] pr-3 md:pr-[108px] md:pb-[115px] md:pt-[129px] md:bg-[#D9D9D9] rounded-[12px]">
+        <div className="mx-3 md:mx-[100px] lg:mx-[50px] pl-3 md:pl-[129px] lg:px-[50px] pr-3 md:pr-[108px] md:pb-[115px] md:pt-[129px] md:bg-[#D9D9D9] rounded-[12px]">
             <div className="flex justify-center md:justify-between items-center text-black mb-[63px]">
                 <h1 className='text-[24px] md:text-[32px] font-bold'>Know more about us!</h1>
                 <div className="hidden md:flex justify-between items-center w-[55%]">
@@ -30,13 +30,13 @@ const Service = () => {
                     <Button
                     key={item}
                     text={item}
-                    className="text-[16px] font-normal pl-6 pr-6 pt-4 pb-4 bg-transparent border border-transparent rounded-none hover:border-[#FC8A06] hover:rounded-[120px] hover:font-bold"
+                    className="lg:text-[14px] text-[16px] font-normal pl-6 pr-6 pt-4 pb-4 bg-transparent border border-transparent rounded-none hover:border-[#FC8A06] hover:rounded-[120px] hover:font-bold"
                     />
                 ))}
                 </div>
             </div>
-            <div className="md:flex md:bg-[#03081F] md:pl-[72px] rounded-xl">
-                <div className="flex flex-col pb-12 md:pb-[115px] text-black md:text-white text-[16px] text-bold md:text-[18px] gap-[34px] md:w-[35%] justify-center items-center">
+            <div className="md:flex md:bg-[#03081F] md:px-[72px] rounded-xl">
+                <div className="flex flex-col pb-12 md:pb-[115px] text-black md:text-white text-[16px] lg:text-[14px] text-bold md:text-[18px] gap-[34px] md:px-10 justify-center items-center border-2 border-white">
                     <p className="font-bold bg-[#FC8A06] md:mt-[78px] px-12 py-[18px] border border-transparent rounded-[120px]">How does Order.UK work?</p>
                     <p className="">What payment methods are accepted?</p>
                     <p className="">Can I track my order in real-time?</p>
@@ -46,9 +46,9 @@ const Service = () => {
                 <div className='flex flex-col items-center bg-[#03081F] rounded-[12px]'>
                     <div className="md:flex gap-5 pt-[88px] md:ml-[31px]">
                         {data.map((item, index) => (
-                        <div key={index} className="flex flex-col justify-center mb-7 md:mb-0 items-center w-[238px] h-[285px] bg-[#D9D9D9] rounded-xl">
+                        <div key={index} className="flex flex-col justify-center mb-7 p-5 md:mb-0 items-center w-[238px] h-[285px] bg-[#D9D9D9] rounded-xl">
                             <p className="text-[18px] font-bold mb-[14px]">{item.title}</p>
-                            <img src={item.url} alt="" className='w-[128px] h-[128px] mb-[5px]'/>
+                            <img src={item.url} alt="" className='w-[128px] h-[128px] lg:w-[88px] lg:h-[88px] mb-[5px]'/>
                             <p className="text-center text-[16px] font-medium">{item.paragraph}</p>
                         </div>
                         ))}
@@ -57,7 +57,7 @@ const Service = () => {
                 </div>
             </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-around items-center mx-3 md:mx-[100px] mt-[44px] mb-[45px] bg-[#FC8A06] rounded-xl">
+        <div className="flex flex-col md:flex-row justify-around items-center mx-3 md:mx-[50px] mt-[44px] mb-[45px] bg-[#FC8A06] rounded-xl">
             <div className="flex flex-col items-center text-white pt-[20px] pb-[16px]">
                 <p className='text-[64px] font-light text-center'>546+</p>
                 <p className="text-[24px]">Registered Riders</p>
