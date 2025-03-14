@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative mx-2.5 md:mx-[50px]">
         <div className='relative flex md:flex-row flex-col-reverse justify-between bg-[#03081FE5] p-[57px] text-white'>
                 <div className="mt-[40px] lg:mt-[60px] xl:mt-[150px]">
-                    <p className="font-normal text-[16px]">I'm lovin' it!</p>
+                    <p className="font-normal text-[16px]">I&apos;m lovin&apos; it!</p>
                     <p className="font-semibold text-[20px] md:mb-2 md:text-[24px] xl:text-[40px]">McDonald’s East London</p>
                     <div className="flex gap-4 flex-wrap">
                         <Button className="px-4 py-2 xl:px-6 xl:py-3 flex items-center gap-2 border border-white rounded-[120px]" text='Minimum Order: 12 GBP' image='/assets/icons/order.png' imageClass='w-6 h-6' textClass='text-[12px]'/>

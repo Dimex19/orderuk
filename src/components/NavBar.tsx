@@ -19,7 +19,7 @@ const NavBar = () => {
     <div>
       {/* Desktop Navigation */}
       <div className='md:flex hidden mt-[24px] mb-[45px] lg:mx-[50px] md:mx-[30px] items-center justify-between'>
-        <img src="/assets/logo.png" alt="" className="h-[53px] md:w-[120px] md:h-[40px]" />
+        <img src="/assets/logo.png" alt="" className="h-[53px] md:w-[150px] md:h-[40px]" />
         <div className="flex flex-1 justify-between items-center">
           <div className="flex justify-between ml-auto w-[80%] items-center">
             {links.map(({name, path}) => (
