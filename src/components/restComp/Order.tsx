@@ -38,7 +38,17 @@ const Order = () => {
 
           <div className="mx-5">
             {activeItem === 'Pizza' && <>
-              <p className="text-[36px] font-bold mb-6">Pizza</p>
+              <div className="flex justify-between">
+                <p className="text-[36px] font-bold mb-6">Pizza</p>
+                <div className="relative border border-red-500">
+                <img src="/assets/icons/arrow-down.png" alt="" className='absolute border w-9 z-10'/>
+                  <select name="cards" className="h-[50px] px-8 bg-[#F6F6F6] border border-[#CFCFCF] rounded-[120px] appearance-none">
+                    <option value="pricing">Sort by Pricing</option>
+                    <option value="name">Sort by Name</option>
+                  </select>
+                </div>
+                
+              </div>
               <OrderCard title='Farm House Xtreme Pizza' description='1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks'/>
               <OrderCard title='Pepperoni Blast Pizza' description='Double pepperoni slices, creamy mozzarella, and rich tomato sauce spread over a crispy thin crust.'/>
               <OrderCard title='BBQ Chicken Pizza' description='Tender BBQ chicken with onions, peppers, and a smoky sauce layered with gooey mozzarella.'/>
