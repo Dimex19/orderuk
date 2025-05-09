@@ -40,9 +40,9 @@ const Order = () => {
             {activeItem === 'Pizza' && <>
               <div className="flex justify-between">
                 <p className="text-[36px] font-bold mb-6">Pizza</p>
-                <div className="relative border border-red-500">
-                <img src="/assets/icons/arrow-down.png" alt="" className='absolute border w-9 z-10'/>
-                  <select name="cards" className="h-[50px] px-8 bg-[#F6F6F6] border border-[#CFCFCF] rounded-[120px] appearance-none">
+                <div className="relative">
+                  {/* <img src="/assets/icons/arrow-down.png" alt="" className='absolute border w-9 z-10'/> */}
+                  <select name="cards" className="h-[50px] px-8 bg-[#F6F6F6] border border-[#CFCFCF] rounded-[120px] appearance-none cursor-pointer">
                     <option value="pricing">Sort by Pricing</option>
                     <option value="name">Sort by Name</option>
                   </select>
